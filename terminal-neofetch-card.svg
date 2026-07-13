@@ -1,0 +1,74 @@
+<svg width="640" height="520" viewBox="0 0 640 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .titlebar { fill: #161b22; }
+      .title-text { fill: #8b949e; font: 14px 'JetBrains Mono', 'Fira Code', monospace; }
+      .prompt { fill: #58a6ff; font: bold 15px 'JetBrains Mono', monospace; }
+      .name { fill: #3fb950; font: bold 18px 'JetBrains Mono', monospace; }
+      .label { fill: #d29922; font: bold 15px 'JetBrains Mono', monospace; }
+      .value { fill: #c9d1d9; font: 15px 'JetBrains Mono', monospace; }
+      .section { fill: #58a6ff; font: bold 15px 'JetBrains Mono', monospace; }
+      .dot { fill: #3fb950; }
+      .rule { stroke: #30363d; stroke-width: 1; }
+      .border { fill: none; stroke: #30363d; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <!-- window background -->
+  <rect x="1" y="1" width="638" height="518" rx="10" class="bg"/>
+  <rect x="1" y="1" width="638" height="518" rx="10" class="border"/>
+
+  <!-- title bar -->
+  <path d="M1 11 a10 10 0 0 1 10 -10 h616 a10 10 0 0 1 10 10 v33 h-636 z" class="titlebar"/>
+  <circle cx="24" cy="27" r="7" fill="#ff5f56"/>
+  <circle cx="46" cy="27" r="7" fill="#ffbd2e"/>
+  <circle cx="68" cy="27" r="7" fill="#27c93f"/>
+  <text x="320" y="32" text-anchor="middle" class="title-text">rahul@github: ~$ neofetch</text>
+
+  <!-- content -->
+  <g font-family="'JetBrains Mono','Fira Code',monospace">
+    <text x="32" y="80" class="name">rahul<tspan fill="#c9d1d9">@</tspan>github</text>
+
+    <text x="32" y="118" class="label">Now</text>
+    <text x="160" y="118" class="value">Full-Stack Developer (MERN + GenAI)</text>
+
+    <text x="32" y="146" class="label">Focus</text>
+    <text x="160" y="146" class="value">Building AI-powered web apps</text>
+
+    <text x="32" y="174" class="label">Also</text>
+    <text x="160" y="174" class="value">Shipping fast MVPs for startups &amp; hackathons</text>
+
+    <text x="32" y="202" class="label">Base</text>
+    <text x="160" y="202" class="value">India</text>
+
+    <!-- Stack section -->
+    <text x="32" y="240" class="section">— Stack</text>
+    <line x1="115" y1="235" x2="608" y2="235" class="rule"/>
+
+    <text x="32" y="270" class="label">Frontend</text>
+    <text x="200" y="270" class="value">React, Next.js, JavaScript, HTML/CSS</text>
+
+    <text x="32" y="298" class="label">Backend</text>
+    <text x="200" y="298" class="value">Node.js, Express, MongoDB</text>
+
+    <text x="32" y="326" class="label">AI / ML</text>
+    <text x="200" y="326" class="value">OpenAI API, LangChain, RAG pipelines</text>
+
+    <text x="32" y="354" class="label">Tools</text>
+    <text x="200" y="354" class="value">Git, Docker, Postman, VS Code</text>
+
+    <!-- Highlights section -->
+    <text x="32" y="392" class="section">— Highlights</text>
+    <line x1="150" y1="387" x2="608" y2="387" class="rule"/>
+
+    <circle cx="38" cy="418" r="4" class="dot"/>
+    <text x="52" y="423" class="value">Building products used by real early users</text>
+
+    <circle cx="38" cy="446" r="4" class="dot"/>
+    <text x="52" y="451" class="value">Reworking dev tooling &amp; automations</text>
+
+    <circle cx="38" cy="474" r="4" class="dot"/>
+    <text x="52" y="479" class="value">Open to AI + open-source collabs</text>
+  </g>
+</svg>
