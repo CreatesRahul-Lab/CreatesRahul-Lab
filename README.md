@@ -35,15 +35,8 @@ Building practical software, exploring AI, and growing through open source.
 
 ---
 
-## <img src="assets/icons/contact.svg" width="22"/> Connect
-
-**Portfolio**  
-https://iam-rahularora.me
-
-**LinkedIn**  
-https://www.linkedin.com/in/createsrahul/
-
-**Email**  
-createsrahul@gmail.com
+<div align="center">
+  <img src="./assets/terminal-connect-card.svg" alt="connect card" />
+</div>
 </div>
 
