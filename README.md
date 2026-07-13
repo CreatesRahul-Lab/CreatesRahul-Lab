@@ -36,7 +36,7 @@ Building practical software, exploring AI, and growing through open source.
 ---
 
 <div align="center">
-  <img src="./assets/terminal-connect-card.svg" alt="connect card" />
+  <img src="./terminal-connect-card.svg" alt="connect card" />
 </div>
-</div>
+
 
