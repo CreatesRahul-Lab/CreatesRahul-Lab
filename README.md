@@ -14,29 +14,11 @@ Building practical software, exploring AI, and growing through open source.
 
 ---
 
-## <img src="assets/icons/profile.svg" width="22"/> About
+## About
 
-```console
-rahul@github:~$ whoami
-```
-
-```text
-Name        Rahul Arora
-Role        Full Stack Developer
-Location    India
-
-Focus
-• Full Stack Development
-• Artificial Intelligence
-• Cloud & DevOps
-• Open Source
-
-Currently
-• Building real-world applications
-• Strengthening DSA
-• Learning Docker, AWS & Kubernetes
-• Contributing consistently
-```
+<p align="center">
+  <img src="./assets/terminal-neofetch-card.svg" alt="Rahul Terminal" width="100%" />
+</p>
 
 ---
 
