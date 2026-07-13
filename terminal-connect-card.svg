@@ -1,0 +1,57 @@
+<svg width="640" height="380" viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .titlebar { fill: #161b22; }
+      .title-text { fill: #8b949e; font: 14px 'JetBrains Mono', 'Fira Code', monospace; }
+      .prompt { fill: #58a6ff; font: bold 15px 'JetBrains Mono', monospace; }
+      .cmd { fill: #c9d1d9; font: 15px 'JetBrains Mono', monospace; }
+      .section { fill: #58a6ff; font: bold 15px 'JetBrains Mono', monospace; }
+      .label { fill: #d29922; font: bold 15px 'JetBrains Mono', monospace; }
+      .value { fill: #79c0ff; font: 15px 'JetBrains Mono', monospace; text-decoration: underline; }
+      .value-plain { fill: #c9d1d9; font: 15px 'JetBrains Mono', monospace; }
+      .comment { fill: #8b949e; font: 14px 'JetBrains Mono', monospace; }
+      .rule { stroke: #30363d; stroke-width: 1; }
+      .border { fill: none; stroke: #30363d; stroke-width: 1; }
+      .dot { fill: #3fb950; }
+    </style>
+  </defs>
+
+  <!-- window background -->
+  <rect x="1" y="1" width="638" height="378" rx="10" class="bg"/>
+  <rect x="1" y="1" width="638" height="378" rx="10" class="border"/>
+
+  <!-- title bar -->
+  <path d="M1 11 a10 10 0 0 1 10 -10 h616 a10 10 0 0 1 10 10 v33 h-636 z" class="titlebar"/>
+  <circle cx="24" cy="27" r="7" fill="#ff5f56"/>
+  <circle cx="46" cy="27" r="7" fill="#ffbd2e"/>
+  <circle cx="68" cy="27" r="7" fill="#27c93f"/>
+  <text x="320" y="32" text-anchor="middle" class="title-text">rahul@github: ~$ cat connect.json</text>
+
+  <g font-family="'JetBrains Mono','Fira Code',monospace">
+    <!-- command line -->
+    <text x="32" y="75"><tspan class="prompt">$</tspan> <tspan class="cmd">cat connect.json</tspan></text>
+
+    <!-- section header -->
+    <text x="32" y="110" class="section">— Connect</text>
+    <line x1="140" y1="105" x2="608" y2="105" class="rule"/>
+
+    <!-- Portfolio -->
+    <text x="32" y="145" class="label">Portfolio</text>
+    <text x="32" y="170" class="value">https://iam-rahularora.me</text>
+
+    <!-- LinkedIn -->
+    <text x="32" y="205" class="label">LinkedIn</text>
+    <text x="32" y="230" class="value">https://linkedin.com/in/createsrahul</text>
+
+    <!-- Email -->
+    <text x="32" y="265" class="label">Email</text>
+    <text x="32" y="290" class="value">createsrahul@gmail.com</text>
+
+    <!-- footer status line -->
+    <circle cx="38" cy="325" r="4" class="dot"/>
+    <text x="52" y="330" class="comment">Usually replies within 24h · Open to collabs</text>
+
+    <text x="32" y="360"><tspan class="prompt">$</tspan> <tspan class="cmd">_</tspan></text>
+  </g>
+</svg>
