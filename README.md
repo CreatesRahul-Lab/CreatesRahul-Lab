@@ -17,7 +17,7 @@ Building practical software, exploring AI, and growing through open source.
 ## About
 
 <p align="center">
-  <img src="./assets/terminal-neofetch-card.svg" alt="Rahul Terminal" width="100%" />
+  <img src="./terminal-neofetch-card.svg" alt="Rahul Terminal" width="100%" />
 </p>
 
 ---
